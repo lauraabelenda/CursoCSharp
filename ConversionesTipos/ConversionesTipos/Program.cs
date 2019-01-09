@@ -16,7 +16,7 @@ namespace ConversionesTipos
             string cadena = "1234";
             DateTime fecha = DateTime.MinValue;
 
-            /*Conversiones*/
+            /*Pruebas Conversiones*/
             //x = i;
             //i = x;
             //i = (int)x;
