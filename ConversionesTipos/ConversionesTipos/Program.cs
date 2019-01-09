@@ -22,7 +22,7 @@ namespace ConversionesTipos
             //i = (int)x;
             i = Convert.ToInt32(cadena);
             Console.WriteLine("El valor de i es: {0}", i);
-            Console.WriteLine("El valor de x es: {0:C}", x);
+            Console.WriteLine("El valor de x es: {0:c}", x);
             Console.WriteLine("El valor de bandera es: " + bandera.ToString());
             Console.WriteLine("El valor de cadena: " + cadena);
             Console.WriteLine("El valor de fecha: " + fecha.ToShortDateString());
