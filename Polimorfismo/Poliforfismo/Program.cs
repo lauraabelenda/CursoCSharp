@@ -20,8 +20,12 @@ namespace Poliforfismo
                                                                         "Av Caidos",
                                                                         "124", "1","Chiapas",
                                                                         "Chiapas", "a","29096");
-            clsImpresion Impresion;
-            Impresion = new clsImpresion();
+            intSalidas Impresion;
+            string cadena = Console.ReadLine();
+            if (cadena == "1")
+                Impresion = new clsImpresion();
+            else
+                Impresion = new clsArchivos();
             Impresion.ImprimeCliente(cliente);
         }
     }

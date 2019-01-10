@@ -43,10 +43,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="clsAbsClientes.cs" />
+    <Compile Include="clsArchivos.cs" />
     <Compile Include="clsClientesBase.cs" />
     <Compile Include="clsClientesConContacto.cs" />
     <Compile Include="clsDirecciones.cs" />
     <Compile Include="clsImpresion.cs" />
+    <Compile Include="intSalidas.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
