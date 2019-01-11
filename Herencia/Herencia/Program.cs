@@ -13,8 +13,8 @@ namespace Herencia
             clsClientesVentas Cliente;
             Cliente = new clsClientesVentas();
             Cliente.IdCliente = 123;
-            Cliente.Apellidos = "Hernandez Hernandez";
-            Cliente.Nombres = "Marcos";
+            Cliente.Apellidos = "Abelenda Laura";
+            Cliente.Nombres = "Laura";
             Cliente.RFC = "HEHM";
             Cliente.Direccion = "Av Tigre 119";
             Cliente.Colonia =  "La Cueva del Jaguar";

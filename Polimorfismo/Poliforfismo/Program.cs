@@ -10,14 +10,14 @@ namespace Poliforfismo
     {
         static void Main(string[] args)
         {
-            clsClientesConContacto cliente = new clsClientesConContacto(0, "Marcos Hernandez",
+            clsClientesConContacto cliente = new clsClientesConContacto(0, "Laura Abelenda",
                                                                         "001",
                                                                         "HEHM",
-                                                                        1, "Marcos Hernandez",
+                                                                        1, "Laura Abelenda",
                                                                         "666666666",
                                                                         "666333333",
-                                                                        "MH@yahoo.es",
-                                                                        "Av Caidos",
+                                                                        "labelenda@sum.es",
+                                                                        "Av asd",
                                                                         "124", "1","Chiapas",
                                                                         "Chiapas", "a","29096");
             intSalidas Impresion;

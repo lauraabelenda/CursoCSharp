@@ -10,8 +10,8 @@ namespace ClasesAbstractas
     {
         static void Main(string[] args)
         {
-            clsClientesBase cliente = new clsClientesBase(0, "Marcos Hernandez",
-                "001", "HEHM", 1,"Marcos Henandez");
+            clsClientesBase cliente = new clsClientesBase(0, "Laura Abelenda",
+                "001", "HEHM", 1,"Laura Abelenda");
             Console.WriteLine(cliente.Clave + " " + cliente.Nombre);
             Console.WriteLine(cliente.TipoRegimen);
             Console.WriteLine(cliente.RFC);

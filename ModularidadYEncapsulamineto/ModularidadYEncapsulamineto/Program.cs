@@ -13,7 +13,7 @@ namespace ModularidadYEncapsulamineto
             clsEmpleados empleado;
             empleado = new clsEmpleados();
             empleado.Edad = 25;
-            empleado.Nombre = "Marcos Hernandez";
+            empleado.Nombre = "Laura Abelenda";
             empleado.SueldoDiario = 12.5m;
             decimal total;
             total = empleado.CalcularSalario(30);
