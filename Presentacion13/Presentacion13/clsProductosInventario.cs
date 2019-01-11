@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsultasLinq
+namespace Presentacion13
 {
-    class Program
+    public class clsProductosInventario : clsProductosPrecios
     {
-        static void Main(string[] args)
-        {
-        }
+        public decimal Existencias { get; set; }
     }
 }
