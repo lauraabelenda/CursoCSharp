@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4849B5E9-159E-470C-8816-8960F93373B6}</ProjectGuid>
+    <ProjectGuid>{88928CA0-B824-4B59-A20C-A5D4EF61F6CF}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ClasesAbstractas</RootNamespace>
-    <AssemblyName>ClasesAbstractas</AssemblyName>
+    <RootNamespace>ConsultasLinq</RootNamespace>
+    <AssemblyName>ConsultasLinq</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,8 +42,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="clsAbsClientes.cs" />
-    <Compile Include="clsClientesBase.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
